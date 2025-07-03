@@ -6,15 +6,17 @@ A Spring Boot Microservices-based Fitness Tracking Application built for learnin
 
 ## 📚 Table of Contents
 
-- [Features](#features)
-- [Screenshots](#screenshots)
-  - [Architecture Diagram](#architecture-diagram)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Clone the Repository](#clone-the-repository)
-  - [Run Microservices](#run-microservices)
-  - [Run the Frontend](#run-the-frontend)
-- [License](#license)
+- Features
+- Screenshots
+  - Architecture Diagram
+- Project Structure
+- Getting Started
+  - Clone the Repository
+  - Run Microservices
+  - Run the Frontend
+
+
+
 
 ---
 
@@ -54,17 +56,20 @@ fitness-microservice/
 ├── userservice/              # Handles user registration and profiles
 ├── fitness-app-frontend/     # Frontend built with React
 └── package-lock.json
-
+```
 ## 🛠️ Getting Started
 
-### 🌀 Clone the Repository
 
-```bash
+🌀 Clone the Repository
+```text
+
 git clone https://github.com/shar7530/fitness-microservice.git
 cd fitness-microservice
-
+```
 
 🚀 Run Microservices
+```text
+
 Make sure you have Java 20 and Maven installed.
 
 Example: To run the User Service
@@ -72,32 +77,28 @@ Example: To run the User Service
 cd userservice
 ./mvnw spring-boot:run
 
-
 Repeat for each of the services:
 
 activityservice
-
 aiservice
-
 gateway
-
 eureka
-
 configserver
+```
 
 ✅ Ensure RabbitMQ and Keycloak are running.
 
 💻 Run the Frontend
+```text
+
 Make sure you have Node.js and npm installed.
 
-bash
-Copy code
 cd fitness-app-frontend
 npm install
 npm start
-The frontend runs at: http://localhost:5173
 
-
+Frontend runs at: http://localhost:5173
+```
 
 
 
