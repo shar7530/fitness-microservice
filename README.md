@@ -38,7 +38,7 @@ A Spring Boot Microservices-based Fitness Tracking Application built for learnin
 ### 📊 Architecture Diagram
 > A clear layout of services communicating via Eureka, Gateway, and RabbitMQ.
 
-![Architecture Diagram](docs/images/architecture_diagram.png)
+![Architecture Diagram](docs/images/architecture.png)
 
 ---
 
